@@ -44,7 +44,7 @@ prev.onclick = () => {
     clearInterval(autoPlay);
     autoPlay = setInterval(() => {
         nextBtn.click();
-    }, 5000);
+    }, 2000);
 }
 dots.forEach((item, position) => {
     item.onclick = () => {
